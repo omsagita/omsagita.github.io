@@ -1,7 +1,7 @@
 # Site settings
 title: "OM Sagita"
 bye_message: "aselole"
-baseurl: "/"
+baseurl: "./"
 url: "https://omsagita.github.io"
 disqus: 
 
