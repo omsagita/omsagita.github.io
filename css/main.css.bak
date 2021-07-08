@@ -1,13 +1,14 @@
 body {
     border-top: 1px dashed rgba(255,255,255,0.5);
-    background-color: rgb(25,26,27);
+    background-color: #000000;
     margin: 0 auto;
     padding: 0;
     font-family: monospace;
-    font-size: 14px;
+    font-size: 12px;
     line-height: unset !important;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.6);
     text-align: center;
+    //width: 800px;
 }
 h1 {
   color: rgba(220,220,0,0.8);
@@ -62,7 +63,9 @@ a {
     color: rgba(220,220,0,0.8);
 }
 .menu ul li a:hover {
-    font-weight: 900;
+    padding: 2px;
+    border-left: 1px dashed rgba(220,220,0,0.5);
+    border-right: 1px dashed rgba(220,220,0,0.5);
 }
 main {
     text-align: left;
@@ -120,16 +123,17 @@ table {
     text-align: center;
 }
 
-th, td {
+td {
     border: 1px dashed rgba(255, 255, 255, 0.5);
-    text-align: center;
-    padding: 5px;
 }
 
 caption {
     display: none;
 }
 
+table a {
+    color: white;
+}
 /* End Table style */
 
 /* Syntax highlighting styles */
@@ -199,8 +203,8 @@ caption {
 .comment {
     color: rgba(255,255,255,0.3);
 }
-.reserved, main li > a {
-    color: rgba(220,220,0,0.8);
+.reserved {
+    color: rgba(220,220,0,0.4);
 }
 .string {
     color: rgba(220,220,0,0.7);
@@ -213,11 +217,7 @@ caption {
 }
 
 blockquote {
-    border-left: unset;
-    margin: unset;
-    font-size: 14px;
-}
-
-code {
-    background: none !important;
+  border-left: unset;
+margin: unset;
+    font-size: 12px;
 }
